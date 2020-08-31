@@ -1,3 +1,5 @@
+[disclamer: I am following this tutorial [Todo app tutorial in Ember Octane for those who know React](https://dev.to/jennyjudova/todo-app-tutorial-in-ember-octane-for-those-who-know-react-1741)]
+
 # todo
 
 This README outlines the details of collaborating on this Ember application.
