@@ -1,4 +1,10 @@
 <p>Hello world from component</p>
-{{#each @model as |item|}}
-<li>{{item.todo}}</li>
-{{/each}}
+<ul>
+  {{#each @model as |item|}}
+  <li>{{item.todo}}</li>
+  {{/each}}
+</ul>
+<form>
+  <input placeholder='Add todo' type='text' value={{this.text.todo}} onchange={{fn this.onChange}} />
+  <button type='submit'>Add</button>
+</form>
